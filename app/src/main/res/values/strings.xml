@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Joyous</string>
+
+    <string name="emoticon1">emoticon1</string>
+    <string name="emoticon2">emoticon2</string>
+    <string name="emoticon3">emoticon3</string>
+    <string name="emoticon4">emoticon4</string>
+    <string name="emoticon5">emoticon5</string>
+    <string name="okaybutton">okayButton</string>
+    <string name="requesttitle">requestTitle</string>
+    <string name="ok">OK</string>
+    <string name="please_choose_an_emoji">Please choose an emoji</string>
+    <string name="joy">Joy</string>
+    <string name="compassionate">Care</string>
+    <string name="uninterested">Uninterested</string>
+    <string name="sad">Sad</string>
+    <string name="powerless">Powerless</string>
+    <string name="time">Time :</string>
+    <string name="recorded_time">recorded time</string>
+    <string name="recorded_date">recorded date</string>
+    <string name="date">Date :</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="mood_statistic">Mood Statistic</string>
+    <string name="overall">Overall Year</string>
+    <string name="current_month">Current Month</string>
+    <string name="no_entry_yet_feel_free_to_add_more">No entries yet. Feel free to add more !</string>
+
+    <string name="set_reminder">Set reminder</string>
+    <string name="skip">Skip</string>
+    <string name="at_what_time_would_you_like_to_receive_your_next_reminder">At what time would you like to receive your next reminder?</string>
+    <string name="all_reminders_have_been_reset">All reminders have been reset.</string>
+    <string name="all_reminders_are_reset">All reminders are reset.</string>
+    <string name="at_what_time_would_you_like_to_receive_a_new_reminder">At what time would you like to receive a new reminder?</string>
+    <string name="note_record_your_mood_at_least_once_per_day_for_optimum_tracking_result">Note: Record your mood at least once per day for optimum tracking result!</string>
+    <string name="do_you_need_more_help">Do you need more help?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="choose_one_to_continue">Choose one to continue</string>
+    <string name="do_another_activity">Do another activity</string>
+    <string name="talk_to_an_expert">Talk to an expert</string>
+    <string name="happiness_booster">Happiness Booster</string>
+    <string name="i_m_feeling">I\'m feeling...</string>
+    <string name="energetic">Energetic</string>
+    <string name="restless">Restless</string>
+    <string name="let_s_try_an_activity_from_the_list_below">Let\'s try an activity from the list below</string>
+    <string name="click_here_after_you_have_completed_nat_least_1_activity">Click here after you have completed\nat least 1 activity</string>
+
+</resources>

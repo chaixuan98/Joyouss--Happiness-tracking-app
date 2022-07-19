@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_purple"
+    android:padding="20dp"
+    tools:context="crudmoodstatus.ViewCalendarActivity">
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/barChart"
+        android:layout_width="376dp"
+        android:layout_height="292dp"
+        android:layout_marginTop="24dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview9" />
+
+    <TextView
+        android:id="@+id/textview9"
+        android:layout_width="307dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:shadowColor="#423F3F"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="Collected Mood for Today"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_surface"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:drawableTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.651"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        tools:visibility="visible" />
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="357dp"
+        android:layout_height="360dp"
+        android:background="#FFFFFF"
+        app:eventsEnabled="true"
+        app:headerColor="@color/bg_light_purple"
+        app:headerLabelColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:selectionColor="@color/btn_purple"
+        app:selectionLabelColor="@color/btn_purple"
+        app:todayLabelColor="@color/btn_purple">
+
+    </com.applandeo.materialcalendarview.CalendarView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
